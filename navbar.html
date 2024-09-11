@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+         <header>
+        <a href="#" class="logo"><i class="bx bxs-home-smile"></i><span>Logo</span></a>
+        
+        <ul class="navbar">
+            <li><a href="Nav.html" class="active">Home</a></li>
+            <li><a href="AddBatch.html">Add Batch</a></li>
+            <li><a href="AddParticipant.html">Add Participant</a></li>
+            <li><a href="UpdateBatch.html">Update Batch</a></li>
+            <li><a href="UpdateParticipant.html">Upadte Participant</a></li>
+        </ul>
+        
+        <div class="main">
+            <a href="#" class="user"><i class="bx bxs-user"></i>Sign in</a>
+            <a href="#" >Contact</a>
+            <div id="menu-icon"><i class="bx bx-menu"></i></div>   
+        </div>
+    </header>
+    <section>
+        <form class="form" method="post" action="addparticipant">
+            <fieldset class="fieldset">
+                <legend>@Add Participant</legend>
+                <label for="addparticipantName">Enter Your Name: </label>
+                <input type="text" id="addparticipantName" name="participantname" placeholder="Enter Your Name" required><br><br>
+                <label for="addparticipantAge">Enter Your Age: </label>
+                <input id="addparticipantAge" type="number" name="participantage" placeholder="Enter Your Age"><br><br>
+                <label for="addparticipantHeight">Enter Your Height: </label>
+                <input id="addparticipantHeight" type="number" name="participantHeight" placeholder="Enter Your Height" required><br><br>
+                <label for="addparticipantWeight">Enter Your Weight: </label>
+                <input id="addparticipantWeight" type="number" name="participantweight" placeholder="Enter Your Weight" required><br><br>
+                <label for="addparticipantPhone">Enter Your PhoneNumber: </label>
+                <input id="addparticipantPhone" type="number" name="participantnumber" placeholder="Enter Your PhoneNumber" required><br><br>
+                <label for="addparticipantEmail">Enter Your Email: </label>
+                <input id="addparticipantEmail" type="email" name="participantemail" placeholder="Enter Your Email"><br><br>
+                <label for="addparticipantDate">Enter Your JoiningDate: </label>
+                <input id="addparticipantDate" type="date" name="participantDate" placeholder="Enter Your joiningDate" required><br><br>
+                <label for="addparticipantTime">Enter Your Batch Time: </label>
+                <input id="addparticipantTime" type="time" name="participanttime" placeholder="Enter Your Time" required><br><br>
+                <div class="button">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+    <script type="text/javascript" src="AddParticipant.js"></script>
+</body>
+</html>
